@@ -29,8 +29,9 @@ private TextView answer;
               int myNumber2 = Integer.parseInt(num2.getText().toString());
              //add operation
               int sum = myNumber1 + myNumber2;
+              int sum1 = myNumber1 + myNumber2;
               //Display Result of the operation
-              answer.setText("Answer :"+sum);
+              answer.setText("Answer :"+sum+" "+sum1);
 
           }
       });
